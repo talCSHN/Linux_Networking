@@ -1285,14 +1285,3 @@ signal(SIGCHLD, handler);
 | 주소 변환 | `inet_pton()`, `inet_ntop()` |
 | 호스트명 변환 | `gethostbyname()`, `gethostbyaddr()` |
 | 옵션 설정 | `setsockopt()`, `getsockopt()` |
-
-🎯 이론 + 코드 실습 + 시스템 함수 흐름을 익히면  
-→ 실전형 TCP/IP 서버/클라이언트 네트워크 프로그래밍 구현 가능
-
-```bash
-# 다음 명령어로 gcc 컴파일
-gcc server.c -o server
-gcc client.c -o client
-```
-
----
